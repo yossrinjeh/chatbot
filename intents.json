@@ -1,0 +1,219 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi there", "Good morning", "Hey", "Hi"],
+      "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?"]
+    },
+    {
+      "tag": "job_inquiry",
+      "patterns": ["We want to recruit", "We need to hire", "Looking for new team members", "We have job openings", "Need to fill positions", "Searching for candidates"],
+      "responses": ["Sure, I can help with that. What position are you looking to fill?"]
+    },
+    {
+      "tag": "job_title",
+      "patterns": [
+        "Full Stack Engineer",
+        "Front End Developer",
+        "Back End Developer",
+        "Data Scientist",
+        "UX/UI Designer",
+        "Network Engineer",
+        "Systems Administrator",
+        "Database Administrator",
+        "IT Project Manager",
+        "Software Engineer",
+        "Business Analyst",
+        "Security Analyst",
+        "Web Developer",
+        "Mobile App Developer",
+        "QA Engineer",
+        "DevOps Engineer",
+        "Product Manager",
+        "Technical Writer",
+        "UI/UX Designer",
+        "Data Analyst",
+        "Cloud Architect",
+        "Game Developer",
+        "Content Writer",
+        "Marketing Analyst",
+        "Financial Analyst",
+        "Project Coordinator",
+        "Graphic Designer",
+        "Sales Engineer",
+        "Systems Engineer",
+        "UX Researcher",
+        "AI Engineer",
+        "Blockchain Developer",
+        "Digital Marketer",
+        "HR Manager",
+        "Recruitment Specialist",
+        "Legal Counsel",
+        "Customer Support Specialist",
+        "Product Owner",
+        "Interior Designer",
+        "Event Planner"
+      ],
+      "responses": ["Great! What skills are required for this position?"]
+    },
+    {
+      "tag": "job_skills",
+      "patterns": [
+        "AngularJS",
+        "React",
+        "PHP",
+        "Python",
+        "Java",
+        "C++",
+        "HTML/CSS",
+        "JavaScript",
+        "Node.js",
+        "SQL",
+        "MongoDB",
+        "AWS",
+        "Azure",
+        "Docker",
+        "Kubernetes",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Cybersecurity",
+        "Agile Methodologies",
+        "Scrum",
+        "Content Management Systems",
+        "Search Engine Optimization",
+        "Social Media Marketing",
+        "Financial Modeling",
+        "Data Visualization",
+        "Statistical Analysis",
+        "Project Management",
+        "Risk Management",
+        "Technical Writing",
+        "User Interface Design",
+        "User Experience Design",
+        "Salesforce",
+        "Customer Relationship Management",
+        "Legal Research",
+        "Contract Negotiation",
+        "Event Planning",
+        "Budget Management",
+        "AutoCAD",
+        "Revit",
+        "SketchUp",
+        "Adobe Creative Suite",
+        "Leadership",
+        "Problem Solving",
+        "Time Management",
+        "Teamwork",
+        "Communication",
+        "Negotiation"
+      ],
+      "responses": ["Got it. Is there any experience requirement for these skills?"]
+    },
+    {
+      "tag": "job_experience",
+      "patterns": [
+        "1 year or less",
+        "2-3 years",
+        "4-5 years",
+        "More than 5 years",
+        "Entry level",
+        "Mid-level",
+        "Senior level",
+        "No experience required"
+      ],
+      "responses": ["Excellent. Are there any other requirements or specific preferences for the candidate?"]
+    },
+    {
+      "tag": "additional_requirements",
+      "patterns": [
+        "Bachelor degree",
+        "B2 in english"
+      ],
+      "responses": ["Understood. What sports are preferred for the candidate?"]
+    },
+    {
+      "tag": "preferred_sports",
+      "patterns": [
+        "Tennis",
+        "Chess",
+        "Football",
+        "Swimming",
+        "Basketball",
+        "Table Tennis",
+        "Golf",
+        "Cricket",
+        "Volleyball",
+        "Baseball",
+        "Running",
+        "Soccer",
+        "Cycling",
+        "Skiing",
+        "Hiking",
+        "Surfing",
+        "Yoga",
+        "Martial Arts",
+        "Boxing",
+        "Dancing",
+        "Gymnastics",
+        "Wrestling",
+        "Surfing",
+        "Horseback Riding",
+        "Archery",
+        "Sailing",
+        "Fencing",
+        "Rock Climbing"
+      ],
+      "responses": [
+        "Noted. Candidates with experience in will be considered."
+      ]
+    },
+    {
+      "tag": "best_matches",
+      "patterns": [
+        "yes i want ",
+        "Provide potential candidates",
+        "Best matches for the job?",
+        "Suitable candidates?"
+      ],
+      "responses": ["Here are the best matches for the job."]
+    },
+    {
+      "tag": "closing",
+      "patterns": [
+        "Thank you",
+        "That's all for now",
+        "Goodbye",
+        "Bye",
+        "See you later"
+      ],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask. Goodbye!"]
+    },
+    {
+      "tag": "clarification",
+      "patterns": [
+        "Need more information about the job",
+        "Clarify something about the job?",
+        "More details about the job?"
+      ],
+      "responses": ["Of course! What specific aspect of the job would you like more information about?"]
+    },
+    {
+      "tag": "candidate_evaluation",
+      "patterns": [
+        "How to evaluate candidates?",
+        "Criteria to assess candidates?",
+        "Determine candidate suitability?"
+      ],
+      "responses": ["We evaluate based on skills, experience, and fit for the role. Want more details?"]
+    },
+    {
+      "tag": "salary_expectation",
+      "patterns": [
+        "Salary range for this position?",
+        "Budget for this role?",
+        "Compensation details?"
+      ],
+      "responses": ["Salary range depends on experience and qualifications."]
+    }
+  ]
+}
